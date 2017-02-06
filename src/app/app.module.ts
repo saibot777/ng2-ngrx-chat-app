@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { UserSelectionComponent } from './user-selection/user-selection.component';
 import { ThreadSectionComponent } from './thread-section/thread-section.component';
 import { MessageSectionComponent } from './message-section/message-section.component';
+import {ThreadsService} from "./services/threads.service";
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { MessageSectionComponent } from './message-section/message-section.compo
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ThreadsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
