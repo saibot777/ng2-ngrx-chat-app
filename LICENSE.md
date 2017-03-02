@@ -1,7 +1,7 @@
 The MIT License (MIT)
 =====================
 
-Copyright © `2015` `Nate Murray & Fullstack.io`
+Copyright © `2017` `Stefan Trajkovic Frenzy777`
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
