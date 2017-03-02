@@ -1,14 +1,36 @@
-import { NgrxPage } from './app.po';
+import { Angular2AppPage } from './app.po';
+import { browser } from 'protractor';
 
-describe('ngrx App', function() {
-  let page: NgrxPage;
+describe('ng-book rxjs-chat Example App', function() {
+  let page: Angular2AppPage;
 
   beforeEach(() => {
-    page = new NgrxPage();
+    page = new Angular2AppPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should load the page', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+
+    expect(page.unreadCount()).toMatch(`4`);
+
+    page.clickThread(1);
+    expect(page.unreadCount()).toMatch(`3`);
+
+    page.clickThread(2);
+    expect(page.unreadCount()).toMatch(`2`);
+
+    page.clickThread(3);
+    expect(page.unreadCount()).toMatch(`0`);
+
+    page.clickThread(2);
+    page.sendMessage('3');
+    expect(page.unreadCount()).toMatch(`0`);
+
+    page.clickThread(1);
+
+    browser.sleep(5000).then(function() {
+      expect(page.getConversationText(0)).toContain(`I waited 3 seconds`);
+    });
   });
+
 });
