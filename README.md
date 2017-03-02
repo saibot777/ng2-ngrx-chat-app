@@ -1,10 +1,7 @@
-<p align="center">
-  <img src="app/images/logos/Angular2RxJSChatHeaderImage.png" alt="Angular 2 RxJS Chat" width="500" height="300"/>
-</p>
 
-# Angular 2 RxJS Chat [![Join the chat at https://gitter.im/ng-book/ng-book](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ng-book/ng-book?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-> An Angular 2 chat app using [Angular 2](https://angular.io/), [RxJS](https://github.com/Reactive-Extensions/RxJS), [Webpack](https://webpack.github.io/), [TypeScript](http://www.typescriptlang.org/), Services, Injectables, [Karma](http://karma-runner.github.io/), Forms, [SCSS](http://sass-lang.com/), and [tslint](http://palantir.github.io/tslint/) by the [ng-book 2 team](https://ng-book.com/2)
+
+> An Angular 2 chat app using [Angular 2](https://angular.io/), [RxJS](https://github.com/Reactive-Extensions/RxJS), [Webpack](https://webpack.github.io/), [TypeScript](http://www.typescriptlang.org/), Services, Injectables, [Karma](http://karma-runner.github.io/), Forms, [SCSS](http://sass-lang.com/), and [tslint](http://palantir.github.io/tslint/) 
 
 This repo shows an example chat application using RxJS and Angular 2. The goal is to show how to use the Observables data architecture pattern within Angular 2. It also features:
 
@@ -22,11 +19,6 @@ This repo shows an example chat application using RxJS and Angular 2. The goal i
 ## Quick start
 
 ```bash
-# clone the repo
-git clone https://github.com/ng-book/angular2-rxjs-chat.git 
-
-# change into the repo directory
-cd angular2-rxjs-chat
 
 # install 
 npm install
@@ -200,25 +192,14 @@ There are lots of other little things that need cleaned up such as:
 - Cleaning up the vendor scripts / typings
 - Simplifying the unread messages count
 
-If you'd like to contribute, feel free to submit a pull request and we'll likely merge it in.
+If you'd like to contribute, feel free to submit a pull request and I'll likely merge it in.
 
 ## Getting Help
 
-If you're having trouble getting this project running, feel free to [open an issue](https://github.com/ng-book/angular2-rxjs-chat/issues), join us on [Gitter](https://gitter.im/ng-book/ng-book?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge), or [email us](mailto:us@fullstack.io)!
+If you're having trouble getting this project running, feel free to contact me "stefantrajkovic777@gmail.com"
 
 ___
 
-# ng-book 2
-
-<a href="https://ng-book.com/2">
-<img align="right" src="app/images/readme/ng-book-2-as-book-cover-pigment.png" alt="ng-book 2" width="148" height="250" />
-</a>
-
-This repo was written and is maintained by the [ng-book 2](https://ng-book.com/2) team. In the book we talk about each line of code in this app and explain why it's there and how it works.
-
-This app is only one of several apps we have in the book. If you're looking to learn Angular 2, there's no faster way than by spending a few hours with ng-book 2.
-
-<div style="clear:both"></div>
 
 ## License
  [MIT](/LICENSE.md)
